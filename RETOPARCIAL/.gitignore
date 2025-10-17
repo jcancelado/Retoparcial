@@ -1,0 +1,15 @@
+# Ignorar variables de entorno y claves privadas
+.env
+*.env
+
+# Ignorar credenciales de Firebase
+*.json
+
+# Ignorar cachés y archivos temporales
+__pycache__/
+*.pyc
+
+# Ignorar archivos de VSCode, sistema y backups
+.vscode/
+.DS_Store
+*.zip
